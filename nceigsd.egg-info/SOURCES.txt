@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nceigsd/__init__.py
+nceigsd/processor.py
+nceigsd.egg-info/PKG-INFO
+nceigsd.egg-info/SOURCES.txt
+nceigsd.egg-info/dependency_links.txt
+nceigsd.egg-info/requires.txt
+nceigsd.egg-info/top_level.txt
+nceigsd/data/list-isd-history_2024.csv

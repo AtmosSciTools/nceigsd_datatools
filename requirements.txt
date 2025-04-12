@@ -1,0 +1,6 @@
+pandas
+numpy
+wget
+matplotlib
+seaborn
+basemap

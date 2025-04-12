@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nceigsd
+Version: 0.1.0
+Summary: A library for processing Global Summary of the Day (GSD) data from NCEI-NOAA
+Home-page: https://github.com/yourusername/nceigsd
+Author: Quang-Van Doan
+Author-email: doan.van.gb@...
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: wget
+Requires-Dist: matplotlib
+Provides-Extra: plot
+Requires-Dist: seaborn; extra == "plot"
+Requires-Dist: basemap; extra == "plot"
