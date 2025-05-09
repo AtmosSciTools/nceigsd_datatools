@@ -311,6 +311,10 @@ class NCEIGSDProcessor:
 
         plt.title("Station Download Status", fontsize=16)
         plt.legend(loc='upper right')
+        summary_dir = os.path.join(self.output_dir, "summaries")
+        self.ensure_directory_exists(summary_dir)
+        map_path = os.path.join(summary_dir, f"station_location_map.png")
+        plt.savefig(map_path)
         plt.show()
 
     def plot_availability_heatmaps(self):
@@ -344,7 +348,7 @@ class NCEIGSDProcessor:
             heatmap_path = os.path.join(summary_dir, f"availability_heatmap_{station}.png")
             plt.savefig(heatmap_path)
             print(f"Saved heatmap to: {heatmap_path}")
-            plt.close()
+            #plt.close()
 
 
 
